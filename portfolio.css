@@ -1,0 +1,307 @@
+/*selection bar*/
+.selection-bar{
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.J-M{
+    border-radius:40px;
+    border-style: none;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(49, 141, 121);
+    color:white;
+    font-family:sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left:-200px;
+    position: fixed;
+   
+}
+
+.home{
+    border:none;
+    color: rgb(8, 8, 8);
+    background-color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:100px;
+    display:inline-block;
+    margin-left:80px ;
+}
+
+
+.home:hover{
+    color: rgb(49, 141, 121);
+}
+
+.projects{
+    border:none;
+    color: rgb(8,8, 8);
+    background-color: white;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:100px;
+    
+}
+.projects:hover{
+    color: rgb(49, 141, 121);
+}
+
+.skills{
+    border:none;
+    color: rgb(8, 8, 8);
+    background-color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:100px;
+}
+    
+.skills:hover{
+    color: rgb(49, 141, 121);
+    }
+
+.contact{
+    border:none;
+    color: rgb(8,8, 8);
+    background-color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+.contact:hover{
+    color: rgb(49, 141, 121);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*home section*/
+.home-section{
+    background-color: rgb(251, 251, 251);
+    text-align: center;
+    margin-left:0px;
+}
+
+.greeting{
+    font-size:35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 300px;
+}
+
+.name{
+    font-size:90px;
+    font-family: sans-serif;
+    padding-top:40px;
+    }
+
+
+.me{
+    color: rgb(49,141,121);
+    font-size:90px;
+    font-family: sans-serif;
+    display: inline-block;
+
+
+}
+
+.profesion{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   margin-top: 10px;
+  
+   padding-top:30px;
+   padding-bottom: 280px;
+}
+
+
+
+
+
+
+
+
+
+/*my skill section*/
+.skill-section{
+    padding-top:100px;
+    background-color:rgb(2, 2, 55);
+    padding-bottom: 170px;
+}
+
+.skill-title{
+    color:rgb(40, 141, 121);
+    font-size:40px;
+    text-align: center;
+    padding-bottom: 100px;
+   
+}
+    
+    
+.skill-list{
+    padding-top:30px;
+    padding-bottom:150px ;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    height:90px;
+}
+
+
+.html{
+    color:rgb(40, 141, 121);
+    border-color: rgb(40, 141, 121);
+    background-color:rgb(2, 2, 55);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style:solid;
+   
+    
+}
+
+.css{
+    color:rgb(40, 141, 121);
+    border-color: rgb(40, 141, 121);
+    background-color: rgb(2, 2, 55);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+}
+   
+
+
+.work-process-title{
+    color:rgb(49, 141, 121);
+    font-size:25px;
+    text-align: center;
+    
+}
+.work-process{
+    padding-top:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 20px; 
+    margin-top: 40px;
+    margin-bottom: 200px;
+
+}
+
+.idea{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+.design{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.develop{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.test{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.launch{
+    width: 80px;
+    height:50px;
+    color:rgb(49, 141, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+.about-me{
+    color:rgb(49, 141, 121);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.text{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 17px;
+   margin-top: 20px;
+   color:white;
+   text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*project section*/
+.project-section{
+    padding-top:100px;
+    background-color: rgb(251, 251, 251);
+    padding-bottom: 120px;
+    margin-bottom:120px;
+
+}
+
+.project-title{
+    font-size: 40px;
+    color:rgb(49, 141, 121);
+    text-align: center;
+    padding-bottom:150px;
+}
+
+
+
+.factor{
+    width: 500px;
+    height: 550px;
+    border:1px solid;
+    border-color: rgb(2, 2, 55);
+    border-style: none;
+    
+}
+
+.promo-email{
+    text-align: center;
+    border:none ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
